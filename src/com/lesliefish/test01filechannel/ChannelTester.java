@@ -1,4 +1,4 @@
-package com.lesliefish.test01channel;
+package com.lesliefish.test01filechannel;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
