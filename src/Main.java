@@ -3,6 +3,7 @@ import com.lesliefish.test03socketchannel.SocketChannelTester;
 import com.lesliefish.test04scatteringbytechannel.ScatteringByteChannelTester;
 import com.lesliefish.test05gatheringbytechannel.GatheringByteChannelTester;
 import com.lesliefish.test06bytebuffer.ByteBufferTester;
+import com.lesliefish.test07selector.SelectorTester;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +13,8 @@ public class Main {
         // SocketChannelTester.test();
         // ScatteringByteChannelTester.test();
         // GatheringByteChannelTester.test();
-        ByteBufferTester.test();
+        // ByteBufferTester.test();
+
+        SelectorTester.test();
     }
 }
