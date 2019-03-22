@@ -4,6 +4,7 @@ import com.lesliefish.test04scatteringbytechannel.ScatteringByteChannelTester;
 import com.lesliefish.test05gatheringbytechannel.GatheringByteChannelTester;
 import com.lesliefish.test06bytebuffer.ByteBufferTester;
 import com.lesliefish.test07selector.SelectorTester;
+import com.lesliefish.test08pipe.PipeTester;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class Main {
         // ScatteringByteChannelTester.test();
         // GatheringByteChannelTester.test();
         // ByteBufferTester.test();
-
-        SelectorTester.test();
+        //SelectorTester.test();
+        PipeTester.test();
     }
 }
