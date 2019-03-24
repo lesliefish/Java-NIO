@@ -6,6 +6,7 @@ import com.lesliefish.test06bytebuffer.ByteBufferTester;
 import com.lesliefish.test07selector.SelectorTester;
 import com.lesliefish.test08pipe.PipeTester;
 import com.lesliefish.test09path.PathTester;
+import com.lesliefish.test10file.FileTester;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +19,8 @@ public class Main {
         // ByteBufferTester.test();
         // SelectorTester.test();
         // PipeTester.test();
-        PathTester.test();
+        // PathTester.test();
+
+        FileTester.test();
     }
 }
