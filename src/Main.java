@@ -7,6 +7,7 @@ import com.lesliefish.test07selector.SelectorTester;
 import com.lesliefish.test08pipe.PipeTester;
 import com.lesliefish.test09path.PathTester;
 import com.lesliefish.test10file.FileTester;
+import com.lesliefish.test11asynfilechannel.AsynchronousFileChannelTester;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,7 +21,7 @@ public class Main {
         // SelectorTester.test();
         // PipeTester.test();
         // PathTester.test();
-
-        FileTester.test();
+        // FileTester.test();
+        AsynchronousFileChannelTester.test();
     }
 }
