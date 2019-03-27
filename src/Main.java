@@ -9,6 +9,7 @@ import com.lesliefish.test09path.PathTester;
 import com.lesliefish.test10file.FileTester;
 import com.lesliefish.test11asynfilechannel.AsynchronousFileChannelTester;
 import com.lesliefish.test12charset.CharSetTester;
+import com.lesliefish.test13filelock.FileLockTester;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +25,7 @@ public class Main {
         // PathTester.test();
         // FileTester.test();
         // AsynchronousFileChannelTester.test();
-        CharSetTester.test();
+        // CharSetTester.test();
+        FileLockTester.test();
     }
 }
